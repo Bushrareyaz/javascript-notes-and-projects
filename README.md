@@ -1,2 +1,4 @@
 # javascript-notes-and-projects
-Learning JavaScript from basics to real-world frontend projects with regular commits.
+“Welcome to my JavaScript learning repository. Here I document what I learn, practise daily, and build projects to strengthen my frontend skills.”
+
+
