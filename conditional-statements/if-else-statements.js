@@ -9,6 +9,11 @@ if(age <18){
     console.log("You CANNOT Vote!!");
 }
 
+// ternary operator
+
+let result = age >= 18 ? "adult" : "Not adult";
+console.log(result);
+
 // mode of screen (light or dark)
 
 let mode = "dark";
@@ -30,3 +35,5 @@ if(number % 2 === 0){
 } else {
     console.log(number,"is odd");
 }
+
+
