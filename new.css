@@ -1,0 +1,14 @@
+body{
+
+   background-color:pink;
+}
+button{
+    background-color: aquamarine;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size:larger;
+}
+h1{
+    color:rgba(236, 130, 16, 0.927);
+}
