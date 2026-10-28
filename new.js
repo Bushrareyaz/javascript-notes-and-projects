@@ -66,6 +66,11 @@ console.log(newbtn);
 // to remove element
 //Node.remove()
 
+// Events in js...change in state of an object is known as an element
+<button onclick = "console.log('button is clicked');">click her!</button> 
+
+
+
 
 
 
