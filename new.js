@@ -67,7 +67,42 @@ console.log(newbtn);
 //Node.remove()
 
 // Events in js...change in state of an object is known as an element
-<button onclick = "console.log('button is clicked');">click her!</button> 
+let div =document.querySelector(".box1");
+div.onmouseover = () => {
+  console.log("touched box");
+  let a = 25;
+  a++;
+  console.log(a);//26
+}
+// priority Js file > inline
+
+/*even object..has detail about element
+all event handlers have access to the event object properties and methods
+
+node.even = (e) => {
+  //handle here
+}
+e.target,e.type,e.clientX,e.clientY
+*/
+
+btn.onclick =(evt) => {
+  console.log(evt);
+  console.log(evt.type);
+  }
+
+// event listener 
+btn1.addElementLister("click",() =>{
+  console.log("button 1 was clicked");
+})
+//node.addEventListener(event,callback);
+//node.removeEventListener(event,callback);
+// note; the callback reference should be same to remove. 
+
+
+
+
+
+
 
 
 
