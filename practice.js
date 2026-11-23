@@ -10,7 +10,7 @@ class User{
 }
 class Admin extends User{
     constructer(name,email){
-        super(name,email);
+        //super(name,email);
         
     }
     editData(){
